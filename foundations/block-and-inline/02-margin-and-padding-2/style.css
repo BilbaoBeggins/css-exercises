@@ -1,20 +1,45 @@
 body {
   background: gray;
   font-family: sans-serif;
-}
+  font-size: 16px;
+  }
 
 .card {
-  width: 400px;
+  width: 600px;
   background: white;
   margin: 16px auto;
+  border: solid white 8px;
+  
+
+  
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  border: solid white 5px;
+  padding: 15px;
 }
 
 button {
   background: white;
+  margin: 0px auto;
+  display: block;
+  /* width: 150px; what I originally had for the button */
+  height: auto;
+  border: solid black 2px;
+  padding: 8px 24px; /* Added after having checked the solutions */
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;  
 }
